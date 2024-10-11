@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+read -t 0
+echo "Has stdin: $?" > kek
+
+echo "ARGS: $@" >> kek
